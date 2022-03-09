@@ -56,7 +56,8 @@ word-spacing: 30px;
   #menu-icon {
       display: inline-block;
   }
-  nav ul, nav:active ul {
+  nav ul, nav:active ul 
+  {
       display: none;
       position: absolute;
       padding: 10px;
@@ -255,7 +256,8 @@ a:hover
     background-color: #2a082c;
     width: 1280px;
     max-width: fit-content;
-    height: 720px;
+    height: 900px;
+    max-height: fit-content;
     text-align: left;
     padding: 80px;
     object-fit: contain;
