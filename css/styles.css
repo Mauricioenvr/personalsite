@@ -254,9 +254,7 @@ a:hover
 .portfolio
 {
     background-color: #2a082c;
-    width: 1280px;
     max-width: fit-content;
-    height: 900px;
     max-height: fit-content;
     text-align: left;
     padding: 80px;
