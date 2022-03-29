@@ -39,6 +39,7 @@
           
           .art
           {
+            margin: auto 20.1em;
             float: center;
             width: 60%;
             height: auto;
@@ -59,7 +60,7 @@
 
           .games
           {
-            margin: 80px auto 100px 320px;
+            margin: auto 19.5em;
             float: center;
             width: 60%;
             height: auto;
@@ -67,6 +68,14 @@
             overflow: hidden;               
             mix-blend-mode: luminosity;
             box-shadow: white;
+          }
+
+          .web {
+            margin: auto 20.1em;
+            float: center;
+            width: 60%;
+            height: auto;
+            object-fit: contain;
           }
 
           .games:hover 
@@ -78,6 +87,12 @@
 		        transition: .5s;
           }
 
+          .flex-apps {
+                  display: flex;
+                  flex-wrap: wrap;
+                  padding-top: 4em;
+                  padding-left: 17.5em;  
+                }
          
           @media only screen and (min-width: 600px) 
       {
@@ -196,7 +211,7 @@
       <h2>Portfolio</h2>  
       
       <br>
-      <p style="font-size:1.5rem; color:white;">Minigames in 2D and artworks of digital art in 2D and 3D.</p>
+      <p style="font-size:1.5rem; color:white;">Minigames in 2D, web based apps and artworks of digital art.</p>
     </div>
         <a  href="https://www.artstation.com/mauricioenvr">
         <img class="art" src="images/cover.png" alt="picture">
@@ -208,8 +223,19 @@
       </a>
       <br>
       <br>
+      <img class="web" src="images/webapps.png" alt="">
       <br>
-      
+      <section class="flex-apps">
+        <div class="grid-item">
+          <a href="https://mauricioenvr.github.io/mealfinder/"><img src="images/meals.png" alt=""><h2 style="font-size: 28px; text-align: center;">Meal <br> finder</h2></a>          
+        </div>
+        <div class="grid-item">
+         <a href="https://mauricioenvr.github.io/moneyexchange/"><img src="images/money.png" alt=""><h2 style="font-size: 28px; text-align: center;">Money <br> exchange</h2></div></a> 
+        <div class="grid-item">
+         <a href="https://mauricioenvr.github.io/meditationapp/"><img src="images/meditation.png" alt=""><h2 style="font-size: 28px; text-align: center;">Meditation <br> app</h2></div></a> 
+        <div class="grid-item">
+         <a href="https://mauricioenvr.github.io/budgetmanager/"><img src="images/wallet.png" alt=""><h2 style="font-size: 28px; text-align: center;">Budget <br> manager</h2></div></a> 
+      </section>
      </div>
     
         
